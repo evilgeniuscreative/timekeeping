@@ -1,0 +1,20 @@
+scp /Users/iankleinfeld/Documents/Web/timesheet/timesheet.html root@linkedout.wtf:/var/www/timesheet/frontend/index.html
+
+scp localfile.txt root@linkedout.wtf:/remote/path/
+
+Secure copy protocol
+
+
+Or rsync
+
+rsync -avz localfile.txt root@linkedout.wtf:/remote/path/
+
+
+# Save the artifact content to timesheet.html, then:
+scp timesheet.html root@linkedout.wtf:/var/www/timesheet/frontend/index.html
+
+# And if you have a favicon.png file:
+scp favicon.png root@linkedout.wtf:/var/www/timesheet/frontend/favicon.png
+
+
+MidnightTolls&late
